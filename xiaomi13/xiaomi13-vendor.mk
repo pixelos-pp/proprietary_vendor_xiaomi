@@ -1267,7 +1267,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/xiaomi13/proprietary/vendor/bin/hw/vendor.qti.hardware.display.composer-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/vendor.qti.hardware.display.composer-service \
     vendor/xiaomi/xiaomi13/proprietary/vendor/bin/hw/vendor.qti.hardware.factory@1.0-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/vendor.qti.hardware.factory@1.0-service \
     vendor/xiaomi/xiaomi13/proprietary/vendor/bin/hw/vendor.qti.hardware.limits@1.2-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/vendor.qti.hardware.limits@1.2-service \
-    vendor/xiaomi/xiaomi13/proprietary/vendor/bin/hw/vendor.qti.hardware.memtrack-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/vendor.qti.hardware.memtrack-service \
     vendor/xiaomi/xiaomi13/proprietary/vendor/bin/hw/vendor.qti.hardware.qseecom@1.0-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/vendor.qti.hardware.qseecom@1.0-service \
     vendor/xiaomi/xiaomi13/proprietary/vendor/bin/hw/vendor.qti.hardware.qteeconnector@1.0-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/vendor.qti.hardware.qteeconnector@1.0-service \
     vendor/xiaomi/xiaomi13/proprietary/vendor/bin/hw/vendor.qti.hardware.sensorscalibrate@1.0-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/vendor.qti.hardware.sensorscalibrate@1.0-service \
@@ -1479,7 +1478,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/xiaomi13/proprietary/vendor/etc/init/ipa_fws.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/ipa_fws.rc \
     vendor/xiaomi/xiaomi13/proprietary/vendor/etc/init/libxiaomi_qcril.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/libxiaomi_qcril.rc \
     vendor/xiaomi/xiaomi13/proprietary/vendor/etc/init/loc-launcher.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/loc-launcher.rc \
-    vendor/xiaomi/xiaomi13/proprietary/vendor/etc/init/memtrack_qti.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/memtrack_qti.rc \
     vendor/xiaomi/xiaomi13/proprietary/vendor/etc/init/modemManager.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/modemManager.rc \
     vendor/xiaomi/xiaomi13/proprietary/vendor/etc/init/netmgrd.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/netmgrd.rc \
     vendor/xiaomi/xiaomi13/proprietary/vendor/etc/init/port-bridge.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/port-bridge.rc \
@@ -2466,7 +2464,6 @@ PRODUCT_PACKAGES += \
     manifest_identity_credential \
     manifest_non_qmaa \
     manifest_non_qmaa_extn \
-    memtrack_qti \
     qcrilhook-saidl \
     qms-saidl \
     qtiradio-saidl \
