@@ -109,7 +109,7 @@ on boot
     chown system system /sys/class/touch/touch_dev/touch_thp_ic_cmd_data
     chmod 0664 /sys/class/touch/touch_dev/touch_thp_ic_cmd_data
 
-on charger
+on property:init.svc.vendor.charger=running
     write /sys/class/touch/touch_dev/touch_doze_analysis 6
 
 service touchfeature_v2-hal-1-0 /odm/bin/hw/vendor.xiaomi.hw.touchfeature@1.0-service
