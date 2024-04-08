@@ -1201,7 +1201,7 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/xiaomi13/proprietary/odm/mount/camera/lib/rfsa/adsp/libmialgo_rawhdr_cdsp_skel.so:$(TARGET_COPY_OUT_ODM)/mount/camera/lib/rfsa/adsp/libmialgo_rawhdr_cdsp_skel.so \
     vendor/xiaomi/xiaomi13/proprietary/odm/mount/camera/lib/rfsa/adsp/libmialgo_rfs_cdsp_skel.so:$(TARGET_COPY_OUT_ODM)/mount/camera/lib/rfsa/adsp/libmialgo_rfs_cdsp_skel.so \
     vendor/xiaomi/xiaomi13/proprietary/odm/mount/camera/lib/rfsa/adsp/libmialgo_slow_motion_cdsp_skel.so:$(TARGET_COPY_OUT_ODM)/mount/camera/lib/rfsa/adsp/libmialgo_slow_motion_cdsp_skel.so \
-    vendor/xiaomi/xiaomi13/proprietary/vendor/etc/displayconfig/display_id_4630947006070067843.xml:$(TARGET_COPY_OUT_VENDOR)/etc/displayconfig/display_id_4630947006070067843.xml \
+    vendor/xiaomi/xiaomi13/proprietary/product/etc/displayconfig/display_id_4630947006070067843.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/displayconfig/display_id_4630947006070067843.xml \
     vendor/xiaomi/xiaomi13/proprietary/product/etc/permissions/UimGba.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/permissions/UimGba.xml \
     vendor/xiaomi/xiaomi13/proprietary/product/etc/permissions/UimGbaManager.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/permissions/UimGbaManager.xml \
     vendor/xiaomi/xiaomi13/proprietary/product/etc/permissions/UimService.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/permissions/UimService.xml \
