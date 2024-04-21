@@ -1841,7 +1841,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/xiaomi13/proprietary/vendor/lib/libqtigefar.so:$(TARGET_COPY_OUT_VENDOR)/lib/libqtigefar.so \
     vendor/xiaomi/xiaomi13/proprietary/vendor/lib/libresampler.so:$(TARGET_COPY_OUT_VENDOR)/lib/libresampler.so \
     vendor/xiaomi/xiaomi13/proprietary/vendor/lib/libspatializerparamstorage.so:$(TARGET_COPY_OUT_VENDOR)/lib/libspatializerparamstorage.so \
-    vendor/xiaomi/xiaomi13/proprietary/vendor/lib/libswspatializer_ext.so:$(TARGET_COPY_OUT_VENDOR)/lib/libswspatializer_ext.so \
     vendor/xiaomi/xiaomi13/proprietary/vendor/lib/libxlog.so:$(TARGET_COPY_OUT_VENDOR)/lib/libxlog.so \
     vendor/xiaomi/xiaomi13/proprietary/vendor/lib/rfsa/adsp/capi_cirrus_sp.so:$(TARGET_COPY_OUT_VENDOR)/lib/rfsa/adsp/capi_cirrus_sp.so \
     vendor/xiaomi/xiaomi13/proprietary/vendor/lib/rfsa/adsp/chre_qsh_shim.so:$(TARGET_COPY_OUT_VENDOR)/lib/rfsa/adsp/chre_qsh_shim.so \
@@ -2367,7 +2366,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/xiaomi13/proprietary/vendor/lib64/libssc_default_listener.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libssc_default_listener.so \
     vendor/xiaomi/xiaomi13/proprietary/vendor/lib64/libssd.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libssd.so \
     vendor/xiaomi/xiaomi13/proprietary/vendor/lib64/libsubsystem_control.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libsubsystem_control.so \
-    vendor/xiaomi/xiaomi13/proprietary/vendor/lib64/libswspatializer_ext.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libswspatializer_ext.so \
     vendor/xiaomi/xiaomi13/proprietary/vendor/lib64/libsxrservice.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libsxrservice.so \
     vendor/xiaomi/xiaomi13/proprietary/vendor/lib64/libsynergy_loc_api.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libsynergy_loc_api.so \
     vendor/xiaomi/xiaomi13/proprietary/vendor/lib64/libsynx.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libsynx.so \
@@ -2443,7 +2441,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/xiaomi13/proprietary/vendor/lib64/soundfx/libasphere.so:$(TARGET_COPY_OUT_VENDOR)/lib64/soundfx/libasphere.so \
     vendor/xiaomi/xiaomi13/proprietary/vendor/lib64/soundfx/libmisoundfx.so:$(TARGET_COPY_OUT_VENDOR)/lib64/soundfx/libmisoundfx.so \
     vendor/xiaomi/xiaomi13/proprietary/vendor/lib64/soundfx/libquasar.so:$(TARGET_COPY_OUT_VENDOR)/lib64/soundfx/libquasar.so \
-    vendor/xiaomi/xiaomi13/proprietary/vendor/lib64/soundfx/libspatializer.so:$(TARGET_COPY_OUT_VENDOR)/lib64/soundfx/libspatializer.so \
     vendor/xiaomi/xiaomi13/proprietary/vendor/lib64/vendor.display.color@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.display.color@1.0.so \
     vendor/xiaomi/xiaomi13/proprietary/vendor/lib64/vendor.display.color@1.1.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.display.color@1.1.so \
     vendor/xiaomi/xiaomi13/proprietary/vendor/lib64/vendor.display.color@1.2.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.display.color@1.2.so \
@@ -2634,6 +2631,7 @@ PRODUCT_PACKAGES += \
     liblx-osal \
     vendor.qti.hardware.AGMIPC@1.0-impl \
     vendor.qti.hardware.pal@1.0-impl \
+    libthermalclient \
     libvmmem \
     libagmdevice \
     CACertService \
