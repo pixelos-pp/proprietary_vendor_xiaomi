@@ -1377,7 +1377,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/xiaomi13/proprietary/vendor/bin/subsystem_ramdump:$(TARGET_COPY_OUT_VENDOR)/bin/subsystem_ramdump \
     vendor/xiaomi/xiaomi13/proprietary/vendor/bin/system_dlkm_modprobe.sh:$(TARGET_COPY_OUT_VENDOR)/bin/system_dlkm_modprobe.sh \
     vendor/xiaomi/xiaomi13/proprietary/vendor/bin/tftp_server:$(TARGET_COPY_OUT_VENDOR)/bin/tftp_server \
-    vendor/xiaomi/xiaomi13/proprietary/vendor/bin/thermal-engine-v2:$(TARGET_COPY_OUT_VENDOR)/bin/thermal-engine-v2 \
     vendor/xiaomi/xiaomi13/proprietary/vendor/bin/time_daemon:$(TARGET_COPY_OUT_VENDOR)/bin/time_daemon \
     vendor/xiaomi/xiaomi13/proprietary/vendor/bin/trusteduilistener:$(TARGET_COPY_OUT_VENDOR)/bin/trusteduilistener \
     vendor/xiaomi/xiaomi13/proprietary/vendor/bin/vendor.dpmd:$(TARGET_COPY_OUT_VENDOR)/bin/vendor.dpmd \
@@ -1521,7 +1520,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/xiaomi13/proprietary/vendor/etc/init/init.time_daemon.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/init.time_daemon.rc \
     vendor/xiaomi/xiaomi13/proprietary/vendor/etc/init/init.vendor.ins.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/init.vendor.ins.rc \
     vendor/xiaomi/xiaomi13/proprietary/vendor/etc/init/init.vendor.sensors.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/init.vendor.sensors.rc \
-    vendor/xiaomi/xiaomi13/proprietary/vendor/etc/init/init_thermal-engine-v2.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/init_thermal-engine-v2.rc \
     vendor/xiaomi/xiaomi13/proprietary/vendor/etc/init/ipa_fws.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/ipa_fws.rc \
     vendor/xiaomi/xiaomi13/proprietary/vendor/etc/init/libxiaomi_qcril.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/libxiaomi_qcril.rc \
     vendor/xiaomi/xiaomi13/proprietary/vendor/etc/init/loc-launcher.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/loc-launcher.rc \
@@ -2366,6 +2364,7 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/xiaomi13/proprietary/vendor/lib64/libsysmon_cdsp_skel.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libsysmon_cdsp_skel.so \
     vendor/xiaomi/xiaomi13/proprietary/vendor/lib64/libsystem_health_mon.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libsystem_health_mon.so \
     vendor/xiaomi/xiaomi13/proprietary/vendor/lib64/libtestutils.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libtestutils.so \
+    vendor/xiaomi/xiaomi13/proprietary/vendor/lib64/libthermalclient.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libthermalclient.so \
     vendor/xiaomi/xiaomi13/proprietary/vendor/lib64/libthreadutils.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libthreadutils.so \
     vendor/xiaomi/xiaomi13/proprietary/vendor/lib64/libtime_genoff.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libtime_genoff.so \
     vendor/xiaomi/xiaomi13/proprietary/vendor/lib64/libtinyxml2_1.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libtinyxml2_1.so \
@@ -2624,7 +2623,6 @@ PRODUCT_PACKAGES += \
     liblx-osal \
     vendor.qti.hardware.AGMIPC@1.0-impl \
     vendor.qti.hardware.pal@1.0-impl \
-    libthermalclient \
     libvmmem \
     libagmdevice \
     CACertService \
