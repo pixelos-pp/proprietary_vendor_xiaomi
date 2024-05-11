@@ -108,6 +108,26 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
+	name: "libvmmem",
+	owner: "xiaomi",
+	strip: {
+		none: true,
+	},
+	target: {
+		android_arm: {
+			srcs: ["proprietary/vendor/lib/libvmmem.so"],
+		},
+		android_arm64: {
+			srcs: ["proprietary/vendor/lib64/libvmmem.so"],
+		},
+	},
+	compile_multilib: "both",
+	check_elf_files: false,
+	prefer: true,
+	soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
 	name: "vendor.qti.hardware.AGMIPC@1.0-impl",
 	owner: "xiaomi",
 	strip: {
@@ -142,23 +162,6 @@ cc_prebuilt_library_shared {
 		},
 	},
 	compile_multilib: "both",
-	check_elf_files: false,
-	prefer: true,
-	soc_specific: true,
-}
-
-cc_prebuilt_library_shared {
-	name: "libvmmem",
-	owner: "xiaomi",
-	strip: {
-		none: true,
-	},
-	target: {
-		android_arm64: {
-			srcs: ["proprietary/vendor/lib64/libvmmem.so"],
-		},
-	},
-	compile_multilib: "64",
 	check_elf_files: false,
 	prefer: true,
 	soc_specific: true,
